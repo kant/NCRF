@@ -189,7 +189,7 @@ tensorboard --logdir /SAVE_PATH/
 ![training_acc](/doc/training_acc.png)
 Typically, you will observe the CRF model consistently achieves higher training accuracy than the baseline model.
 
-`train.py` will generate a `train.ckpt`, which is the most recently saved model, and a `best.ckpt`, which is the model with the best validation accuracy. We also provide the best.ckpt of pretained resnet18_base and resnet18_crf at [NCRF/ckpt](/ckpt/). 
+`train.py` will generate a `train.ckpt`, which is the most recently saved model, and a `best.ckpt`, which is the model with the best validation accuracy. We also provide the `best.ckpt` of pretrained resnet18_base and resnet18_crf at [NCRF/ckpt](/ckpt/). 
 
 
 # Testing
